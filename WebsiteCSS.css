@@ -1,15 +1,40 @@
-body{
-    background-color: #1A1A1A;
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Opera and Firefox */
 }
+
+img {
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    user-drag: none;
+}
+
+html, body{
+    margin: 0;
+    height: 100%;
+    background-image: linear-gradient(#1A1A1A, #1A1A1A, black, #FF0000);
+
+}
+
 
 h1{
     color: white;
     text-align: center;
+    margin-bottom: 0;
+    margin-top: 0;
     font-family: Arial;
+    font-size: 60px;
 }
 
 #logo{
-    max-width: 20%;
+    max-width: 400px;
     height: auto;
     display: block;
     margin-left: auto;
@@ -26,6 +51,7 @@ h1{
 
 #header{
     align-content: center;
+    margin-bottom: 50px;
 }
 
 #main{
@@ -34,21 +60,33 @@ h1{
 }
 
 .link{
-    color: black;
-    font-family: arial;
-    text-transform: uppercase;
+    display: inline-block;
+
+}
+
+#links{
     display: block;
-
-    background: white;
-    width: 250px;
-    height: 40px;
-
-    border-radius: 5px;
-    border-color: grey;
-
+    text-align: center;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 20px;
-    margin-top: 20px;
+}
 
+.center{
+    display: flex;
+    align-content: center;
+}
+
+.logo{
+    max-width: 70px;
+    height: auto;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.text{
+    display: inline;
+    text-align: center;
+    font-family: arial;
+    font-size: 30px;
+    font-weight: bolder;
 }
