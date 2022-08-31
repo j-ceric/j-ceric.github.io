@@ -1,0 +1,54 @@
+body{
+    background-color:black;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-family: Arial;
+}
+
+#logo{
+    max-width: 20%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#instagram{
+    max-width: 35px;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#header{
+    align-content: center;
+}
+
+#main{
+    display: block;
+    align-content: center;
+}
+
+.link{
+    color: black;
+    font-family: arial;
+    text-transform: uppercase;
+    display: block;
+
+    background: white;
+    width: 250px;
+    height: 40px;
+
+    border-radius: 5px;
+    border-color: grey;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
