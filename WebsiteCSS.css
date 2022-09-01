@@ -52,7 +52,7 @@ h1{
 
 /* ######## NAVBAR ########## */
 #navbar{
-    
+    display: none;
     background-color: #303030;
     height: auto;
     overflow: hidden;
